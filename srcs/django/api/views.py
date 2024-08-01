@@ -47,11 +47,6 @@ def add_friend(request):
 	except Exception as e:
 		return Response({'error': str(e)}, status=400)
 
-@api_view(['POST'])
-def accept_friend_request(request):
-	return Response({"message":"salut"})
-
-
 
 @api_view(['POST'])
 def login_view(request):
