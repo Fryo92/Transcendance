@@ -15,10 +15,8 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.decorators import api_view
 from rest_framework_simplejwt.tokens import AccessToken
 from .models import User, Stat, Game
-from .serializers import OauthUserSerializer, loginSerializer, registerSerializer, friendSerializer, statsSerializer, tournamentSerializer
-from .serializers import OauthUserSerializer, loginSerializer, registerSerializer, friendSerializer, statsSerializer
 from .models import User, Stat
-from .serializers import OauthUserSerializer, loginSerializer, registerSerializer, friendSerializer, statsSerializer, otpSerializer, nicknameSerializer
+from .serializers import OauthUserSerializer, loginSerializer, registerSerializer, friendSerializer, statsSerializer, otpSerializer, nicknameSerializer, tournamentSerializer
 
 from django.contrib.auth import authenticate
 from rest_framework_simplejwt.tokens import RefreshToken
@@ -106,7 +104,7 @@ def logout_view(request):
 		return JsonResponse({'error': str(e)}, status=400)		
 
 def oauth2_login(request):
-	redirect_url = 'https://api.intra.42.fr/oauth/authorize?client_id=u-s4t2ud-115cd61e7027f57123f0c3e86b1d5165c460c57ed30ee134ffe15ea960790b7d&redirect_uri=https%3A%2F%2Flocalhost%3A3000%2Fapi%2Fcallback%2F&response_type=code'
+	redirect_url = 'https://api.intra.42.fr/oauth/authorize?client_id=&redirect_uri=https%3A%2F%2Flocalhost%3A3000%2Fapi%2Fcallback%2F&response_type=code'
 	return redirect(redirect_url)
 	
 @api_view(['POST'])
