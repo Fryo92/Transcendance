@@ -6,6 +6,9 @@ Ce projet consiste à créer un site web pour participer à une compétition
 
 Fait a 4, nous avons tous pris en main differents aspects du projet afin de le mener jusqu'au bout.
 
+![image](https://github.com/user-attachments/assets/281ee380-85f6-4f5c-a782-d8c5480e6820)
+
+
 ### LANCEMENT
 
 Sans pgadmin: make
