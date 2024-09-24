@@ -6,9 +6,10 @@ Ce projet consiste à créer un site web pour participer à une compétition
 
 Fait a 4, nous avons tous pris en main differents aspects du projet afin de le mener jusqu'au bout.
 
-# LANCEMENT
+### LANCEMENT
 
 Sans pgadmin: make
+
 Avec pgadmin: make dev
 
 ### MODULES MAJEURS
