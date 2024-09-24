@@ -7,6 +7,7 @@ Ce projet consiste à créer un site web pour participer à une compétition
 Fait a 4, nous avons tous pris en main differents aspects du projet afin de le mener jusqu'au bout.
 
 ![image](https://github.com/user-attachments/assets/281ee380-85f6-4f5c-a782-d8c5480e6820)
+![finigif](https://github.com/user-attachments/assets/6a62c0f0-9104-411d-b414-09c0bab813c2)
 
 
 ### LANCEMENT
